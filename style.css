@@ -1,0 +1,79 @@
+.square{
+    width: 150px;
+    height: 150px;
+    background: brown;
+}
+
+.rectangle{
+    width: 150px;
+    height: 100px;
+    background: brown;
+}
+
+.circle{
+    width: 150px;
+    height: 150px;
+    background: brown;
+    border-radius: 50%;
+}
+.ovel{
+    width: 150px;
+    height: 90px;
+    background: brown;
+    border-radius: 80px/50px;
+}
+
+.triangle-up{
+    width: 0px;
+    height: 0px;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 150px solid brown;
+}
+.triangle-down{
+    width: 0px;
+    height: 0px;
+    border-top: 150px solid brown;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+
+}
+.triangle-left{
+    width: 0;
+    height: 0;
+    border-top: 75px solid transparent;
+    border-right: 150px solid brown;
+    border-bottom: 75px solid transparent;
+}
+.triangle-right{
+    width: 0px;
+    height: 0px;
+    border-top: 75px solid transparent;
+    border-left: 150px solid brown;
+    border-bottom: 75px solid transparent;
+}
+.triangle-top-left{
+    width: 0px;
+    height: 0;
+    border-top: 150px solid brown;
+    border-right: 150px solid transparent;
+}
+
+.triangle-top-right{
+    width: 0px;
+    height: 0px;
+    border-top: 150px solid brown;
+    border-left: 150px solid transparent;
+}
+.triangle-bottom-left{
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid brown;
+    border-right: 150px solid transparent;
+}
+.triangle-bottom-right{
+    width: 0;
+    height: 0;
+    border-bottom: 150px solid brown;
+    border-left: 150px solid transparent;
+}
